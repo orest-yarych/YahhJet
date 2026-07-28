@@ -1,0 +1,35 @@
+.fleet-title {
+  font-weight: 500;
+  font-size: 48px;
+
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.fleet-item-title {
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+}
+
+.fleet-item-type {
+  font-weight: 400;
+  font-size: 13px;
+
+  /* line-height: 15px; */
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+}
+
+.fleet-item {
+  background-color: #fbfbfb;
+}

@@ -1,0 +1,28 @@
+.about {
+  background-color: #fbfbfb;
+}
+
+.about-title.section-title {
+  color: #1b414b;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 23px;
+
+  /* line-height: 23px; */
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+
+.about-description {
+  font-weight: 400;
+  font-size: 13px;
+
+  /* line-height: 15px; */
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
