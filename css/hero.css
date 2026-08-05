@@ -1,6 +1,18 @@
+.hero {
+  padding-top: 235px;
+  padding-bottom: 180px;
+
+  background: url(../images/hero-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
 .hero-title {
+  width: 1000px;
   font-weight: 500;
   font-size: 80px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 
   /* line-height: 80px; */
   line-height: 1;
@@ -10,10 +22,24 @@
 }
 
 .hero-text {
+  width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+
   font-weight: 300;
   font-size: 16px;
 
   line-height: 1.4;
   text-align: center;
   color: rgba(251, 251, 251, 0.7);
+}
+
+.hero-button {
+  transition: background-color var(--animation);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #0f252b;
 }

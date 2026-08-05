@@ -1,4 +1,9 @@
 .fleet-title {
+  width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+
   font-weight: 500;
   font-size: 48px;
 
@@ -8,28 +13,19 @@
   color: #fbfbfb;
 }
 
-.fleet-item-title {
-  font-weight: 500;
-  font-size: 16px;
-
-  line-height: 1.2;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-  color: #1b414b;
+.fleet-container {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.fleet-item-type {
-  font-weight: 400;
-  font-size: 13px;
+.fleet-list {
+  display: flex;
+  gap: 32px;
 
-  /* line-height: 15px; */
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #040306;
-  opacity: 0.4;
+  margin-bottom: 50px;
 }
 
-.fleet-item {
-  background-color: #fbfbfb;
+.fleet-button {
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  background-color: transparent;
 }

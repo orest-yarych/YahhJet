@@ -1,9 +1,23 @@
-.about {
+.about-wrapper {
   background-color: #fbfbfb;
+  border-radius: 24px;
+  overflow: hidden;
 }
 
-.about-title.section-title {
+.about-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 100px;
+}
+
+.about-title {
+  width: 537px;
   color: #1b414b;
+  text-align: left;
+}
+
+.about-right {
+  width: 404px;
 }
 
 .about-text {

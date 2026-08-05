@@ -1,6 +1,26 @@
 .header {
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+  top: 32px;
+  left: 50%;
+  transform: translate(-50%);
+
+  width: 1240px;
+  height: 48px;
+  margin: 0 auto;
+
   border: 1px solid #fbfbfb;
   border-radius: 8px;
 
   background-color: #fbfbfb;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 30px;
 }
