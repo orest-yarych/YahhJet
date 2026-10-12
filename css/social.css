@@ -1,5 +1,6 @@
 .social {
-  display: flex;
+  display: none;
+
   justify-content: space-between;
   width: 88px;
 }
@@ -23,4 +24,10 @@
 .social-link:hover,
 .social-link:focus {
   color: #062730;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    display: flex;
+  }
 }

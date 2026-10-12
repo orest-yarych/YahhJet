@@ -3,11 +3,12 @@
   justify-content: center;
 
   position: fixed;
-  top: 32px;
+  top: 20px;
   left: 50%;
   transform: translate(-50%);
 
-  width: 1240px;
+  width: 335px;
+
   height: 48px;
   margin: 0 auto;
 
@@ -23,4 +24,36 @@
   align-items: center;
   width: 100%;
   padding: 0 30px;
+}
+
+.burger-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  line-height: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.burgen-icon {
+  stroke: #1b414b;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 704px;
+    top: 32px;
+  }
+
+  .burger-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    width: 1240px;
+    top: 32px;
+  }
 }
